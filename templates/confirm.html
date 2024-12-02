@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Confirm Your Signup</title>
+</head>
+<body>
+    <h2>Confirm your signup</h2>
+
+    <p>Follow this link to confirm your user:</p>
+    <p><a href="{{ .ConfirmationURL }}">Confirm your mail</a></p>
+    <p>Your auth code is {{ .Token }} 5min</p>
+</body>
+</html>
